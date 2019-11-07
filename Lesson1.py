@@ -1,11 +1,12 @@
 #Calcuator
+# импорт модулей
 
-from tkinter import
+from tkinter import *
 from tkinter import messagebox
 from tkinter import ttk
-root = Tk()
-root.title("Calculator")
-
+root = Tk()                             # создание окна
+root.title("Calculator")                # название окна
+                                        # создание списка кнопок
 bttn_list = [
 
     "7", "8", "9", "+", "-",
@@ -16,7 +17,7 @@ bttn_list = [
 
 r = 1
 c = 0
-
+                                        # цикл
 for i in bttn_list:
     rel = ""
     cmd=lambda x=i:\
