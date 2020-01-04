@@ -3,6 +3,6 @@
 commands_list = [
     ' --version'
     ' -version'
-    ' verson'
+    ' version'
     ' -V'
 ]
